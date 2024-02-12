@@ -9,9 +9,14 @@ To get started with this project, follow these steps:
 3. Start the development server: `npm run start:dev`
 4. Open your browser and navigate to address provided in console. The default is: `http://127.0.0.1:4000/`
 
-## Scripts
+## Available Endpoints
 
-The following scripts are available in this project:
+| Endpoint               | Description                                                                         |
+|----------------------|-------------------------------------------------------------------------------------|
+| `/users`              | GET: Returns a list of users<br>POST: Creates a new user                         |
+| `/users/:userId`      | GET: Returns a single user<br>PUT: Updates an existing user<br>DELETE: Deletes a user |
+
+## Scripts
 
 | Script               | Description                                                                         |
 |----------------------|-------------------------------------------------------------------------------------|

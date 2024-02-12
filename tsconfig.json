@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "es2020",
+    "target": "es6",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "types": ["node", "jest"],
+  },
+
+  "include": ["src/**/*"]
+}

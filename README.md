@@ -1,20 +1,27 @@
-### Basic Scope
-- [ ] **+10** The repository with the application contains a `Readme.md` file containing detailed instructions for installing, running and using the application
-- [x] **+10** **GET** `api/users` implemented properly
-- [x] **+10** **GET** `api/users/{userId}` implemented properly
-- [x] **+10** **POST** `api/users` implemented properly
-- [x] **+10** **PUT** `api/users/{userId}` implemented properly
-- [x] **+10** **DELETE** `api/users/{userId}` implemented properly
-- [x] **+6** Users are stored in the form described in the technical requirements
-- [x] **+6** Value of `port` on which application is running is stored in `.env` file
+# Simple CRUD API
 
-### Advanced Scope
-- [x] **+30** Task implemented on Typescript
-- [x] **+10** Processing of requests to non-existing endpoints implemented properly
-- [x] **+10** Errors on the server side that occur during the processing of a request should be handled and processed properly
-- [x] **+10** Development mode: `npm` script `start:dev` implemented properly
-- [x] **+10** Production mode: `npm` script `start:prod` implemented properly
+## Getting Started
 
-### Hacker Scope
-- [ ] **+30** There are tests for API (not less than **3** scenarios)
-- [ ] **+50** There is horizontal scaling for application with a **load balancer**
+To get started with this project, follow these steps:
+
+1. Clone this repository: `git clone https://github.com/SilCorp/NodeJS2024Q1.git`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run start:dev`
+4. Open your browser and navigate to address provided in console. The default is: `http://127.0.0.1:4000/`
+
+## Scripts
+
+The following scripts are available in this project:
+
+| Script               | Description                                                                         |
+|----------------------|-------------------------------------------------------------------------------------|
+| `npm run start:dev`   | Starts the development server with hot module reloading                              |
+| `npm run start:prod`  | Builds the production bundle and starts the production server                         |
+| `npm run build`      | Builds the production bundle                                                        |
+| `npm run test`       | Runs the unit tests with Jest                                                      |
+
+## Technologies Used
+
+- [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript
+- [Webpack](https://webpack.js.org/) - A module bundler that bundles JavaScript files for usage in a browser
+- [Jest](https://jestjs.io/) - A testing framework that allows you to write tests using a JavaScript syntax
